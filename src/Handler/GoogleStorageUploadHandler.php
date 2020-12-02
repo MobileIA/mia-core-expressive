@@ -65,8 +65,24 @@ class GoogleStorageUploadHandler extends \Mobileia\Expressive\Request\MiaRequest
             return '.pdf';
         }else if($mimetype == 'video/x-matroska'||$mimetype == 'video/x-matroska;codecs=avc1,opus') {
             return '.mkv';
+        }else if($mimetype == 'application/vnd.ms-excel') {
+            return '.xls';
+        }else if($mimetype == 'text/csv') {
+            return '.csv';
+        }else if($mimetype == 'application/msword') {
+            return '.doc';
+        }else if($mimetype == 'application/epub+zip') {
+            return '.epub';
+        }else if($mimetype == 'image/svg+xml') {
+            return '.svg';
+        }else if($mimetype == 'image/svg+xml') {
+            return '.xml';
+        }else if($mimetype == 'application/zip') {
+            return '.zip';
+        }else if($mimetype == 'application/vnd.visio') {
+            return '.vsd';
         }
         
-        return '.jpg';
+        return '.other';
     }
 }

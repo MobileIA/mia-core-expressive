@@ -1,7 +1,7 @@
 {
     "name": "mobileia/mia-core-expressive",
     "description": "The library for Zend Expressive 3",
-    "version": "0.0.30",
+    "version": "0.0.31",
     "minimum-stability": "stable",
     "license": "MIT",
     "authors": [{
