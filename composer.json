@@ -1,7 +1,7 @@
 {
     "name": "mobileia/mia-core-expressive",
     "description": "The library for Zend Expressive 3",
-    "version": "0.0.31",
+    "version": "0.0.32",
     "minimum-stability": "stable",
     "license": "MIT",
     "authors": [{
@@ -15,9 +15,9 @@
     "require": {
         "php": "^7.1",
         "zendframework/zend-diactoros": "^1.7.1 || ^2.0",
-        "google/cloud-error-reporting": "^0.16.0",
-        "google/cloud-logging": "^1.19",
-        "google/cloud-storage": "^1.18"
+        "google/cloud-error-reporting": "^0.18.2",
+        "google/cloud-logging": "^1.21",
+        "google/cloud-storage": "^1.23"
     },
     "autoload": {
         "psr-4": {
